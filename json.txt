@@ -1,0 +1,1 @@
+{"pm2p5": "20.3", "pm10": "39.6", "airTCMperature": "29.81", "relativeHumidity": "29.43", "co": "nan", "no2": "nan", "nh3": "nan", "airQualityIndex": "39.60", "airQualityLevel": "GOOD", "CMiMajorPollutant": "PM10"}
