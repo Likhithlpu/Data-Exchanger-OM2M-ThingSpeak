@@ -4,14 +4,14 @@ import json
 from paho.mqtt import client as mqtt_client
 import requests
 
-#MQTT Details and connectivity details 
+#MQTT Details and connectivity details (Replace Yours)
 broker = 'mqtt3.thingspeak.com'
 port = 1883
-topic = "channels/1654489/subscribe"
-client_id = 'PSIVFyMDFjEwNjoXMiEiKQQ'
-username = 'PSIVFyMDFjEwNjoXMiEiKQQ'
-password = '4jQoRBw7m+Wb0ZtuzBct5ZgH'
-url = "http://127.0.0.1:2000/~/in-cse/in-name/ThingSpeak-1654489/Channel-1-1654489/Data"
+topic = "channels/xxxxxx/subscribe"
+client_id = 'XXXXXXXXXXXXXXXXXXXXXX'
+username = 'XXXXXXXXXXXXXXXXXXXXXXX'
+password = 'XXXXXXXXXXXXXXXXXXXXXXXX'
+url = "http://127.0.0.1:2000/~/in-cse/in-name/XXXXXXXXX/XXXXXXXXX/Data"
 
 
 def connect_mqtt() -> mqtt_client:
